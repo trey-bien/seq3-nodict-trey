@@ -31,7 +31,7 @@ class Node:
 class NoDict:
     def __init__(self, num_buckets=10):
         """
-        define variables
+        define variables 
         """
         self.buckets = [[] for _ in range(num_buckets)]
         self.size = num_buckets
